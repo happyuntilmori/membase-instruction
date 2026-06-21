@@ -16,19 +16,19 @@ permalink: /
 
 | 목적 | 파일 |
 |------|------|
-| 🤖 AI 에이전트 즉시 연결 (피딩용) | [agent-guide.md](./agent-guide.md) |
-| 📖 멤베이스가 뭔지 알고 싶다 | [1장: 소개](./01-intro.md) |
-| 🔧 지금 당장 설치하고 싶다 | [2장: 설치](./02-installation.md) |
-| 📝 기억 저장/검색 방법 | [3장: 기본 사용법](./03-basic-usage.md) |
-| 💾 백업과 외부 도구 연동 | [4장: 고급 기능](./04-advanced-features.md) |
-| 📋 CLAUDE.md 작성 방법 | [5장: 에이전트 지시](./05-agent-instructions.md) |
-| ❓ 자주 묻는 질문 | [6장: FAQ](./06-faq.md) |
+| 🤖 AI 에이전트 즉시 연결 (피딩용) | [agent-guide.html](agent-guide.html) |
+| 📖 멤베이스가 뭔지 알고 싶다 | [1장: 소개](01-intro.html) |
+| 🔧 지금 당장 설치하고 싶다 | [2장: 설치](02-installation.html) |
+| 📝 기억 저장/검색 방법 | [3장: 기본 사용법](03-basic-usage.html) |
+| 💾 백업과 외부 도구 연동 | [4장: 고급 기능](04-advanced-features.html) |
+| 📋 CLAUDE.md 작성 방법 | [5장: 에이전트 지시](05-agent-instructions.html) |
+| ❓ 자주 묻는 질문 | [6장: FAQ](06-faq.html) |
 
 ---
 
 ## 이 가이드의 구성
 
-### [agent-guide.md](./agent-guide.md) — AI 에이전트용 참조 문서
+### [AI 에이전트용 참조 문서](agent-guide.html)
 
 AI 에이전트에게 **직접 피딩**할 수 있는 기계 친화적 레퍼런스 문서예요.
 CLAUDE.md, .cursorrules, 시스템 프롬프트에 포함하거나 에이전트 컨텍스트에 직접 제공하세요.
@@ -47,7 +47,7 @@ CLAUDE.md, .cursorrules, 시스템 프롬프트에 포함하거나 에이전트 
 
 중학생도 이해할 수 있도록 친절하게 작성된 한국어 설명서예요.
 
-#### [1장: 멤베이스란 무엇인가?](./01-intro.md)
+#### [1장: 멤베이스란 무엇인가?](01-intro.html)
 - AI 에이전트의 건망증 문제
 - 멤베이스가 해결하는 것
 - 메모리 vs 위키 개념
@@ -55,7 +55,7 @@ CLAUDE.md, .cursorrules, 시스템 프롬프트에 포함하거나 에이전트 
 - 누가 쓰면 좋은가
 - 가격 정책
 
-#### [2장: 설치하기](./02-installation.md)
+#### [2장: 설치하기](02-installation.html)
 - Claude Code 설치
 - Cursor 설치
 - Hermes Agent 설치
@@ -63,7 +63,7 @@ CLAUDE.md, .cursorrules, 시스템 프롬프트에 포함하거나 에이전트 
 - 탈중앙화 버전 (membase-mcp) 설치
 - 설치 확인 및 오류 해결
 
-#### [3장: 기본 사용법](./03-basic-usage.md)
+#### [3장: 기본 사용법](03-basic-usage.html)
 - 기억 저장하기 (add_memory)
 - 기억 검색하기 (search_memory)
 - 위키 만들기 (add_wiki)
@@ -73,7 +73,7 @@ CLAUDE.md, .cursorrules, 시스템 프롬프트에 포함하거나 에이전트 
 - 대시보드 사용법
 - 실전 시나리오
 
-#### [4장: 고급 기능](./04-advanced-features.md)
+#### [4장: 고급 기능](04-advanced-features.html)
 - 데이터 저장 위치 (서버 vs 로컬)
 - 로컬 동시 저장 방법
 - 서비스 중단 시 백업 방법
@@ -83,7 +83,7 @@ CLAUDE.md, .cursorrules, 시스템 프롬프트에 포함하거나 에이전트 
 - 탈중앙화 버전 상세 설명
 - 크론/스케줄러 필요 여부
 
-#### [5장: 에이전트 지시하기](./05-agent-instructions.md)
+#### [5장: 에이전트 지시하기](05-agent-instructions.html)
 - CLAUDE.md 작성 템플릿
 - .cursorrules 작성 템플릿
 - AGENT.md 작성 템플릿
@@ -92,7 +92,7 @@ CLAUDE.md, .cursorrules, 시스템 프롬프트에 포함하거나 에이전트 
 - 상황별 지시 템플릿
 - 실전 에이전트 설정 예시
 
-#### [6장: FAQ](./06-faq.md)
+#### [6장: FAQ](06-faq.html)
 - 자주 묻는 질문 총정리
 - 문제 해결 가이드
 - 보안 및 프라이버시 Q&A
