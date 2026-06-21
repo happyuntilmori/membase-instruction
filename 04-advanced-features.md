@@ -1,3 +1,10 @@
+---
+layout: default
+title: "4장: 고급 기능"
+nav_order: 6
+description: "백업, GitHub 동기화, Obsidian 연동, Gmail/Slack 통합"
+---
+
 # 4장: 고급 기능 — 백업, 동기화, 외부 앱 연동, 옵시디언
 
 ---

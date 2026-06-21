@@ -1,3 +1,10 @@
+---
+layout: default
+title: "6장: FAQ"
+nav_order: 8
+description: "자주 묻는 질문 — 크론 필요 여부, 백업, 보안, 문제 해결"
+---
+
 # 6장: 자주 묻는 질문 (FAQ)
 
 ---

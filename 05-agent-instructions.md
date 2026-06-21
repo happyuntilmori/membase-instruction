@@ -1,3 +1,10 @@
+---
+layout: default
+title: "5장: 에이전트 지시하기"
+nav_order: 7
+description: "CLAUDE.md, .cursorrules, AGENT.md 작성 템플릿 모음"
+---
+
 # 5장: AI 에이전트에게 멤베이스 사용 지시하기
 
 ---

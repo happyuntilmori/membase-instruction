@@ -1,3 +1,10 @@
+---
+layout: default
+title: "2장: 설치하기"
+nav_order: 4
+description: "Claude Code, Cursor, Hermes Agent, OpenClaw에 멤베이스 설치 방법"
+---
+
 # 2장: 멤베이스 설치하기
 
 ---

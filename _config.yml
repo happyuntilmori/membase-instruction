@@ -1,0 +1,51 @@
+title: "Membase 완전 가이드"
+description: "AI 에이전트를 위한 중앙 기억 관리 — Claude, Cursor, ChatGPT 멀티 에이전트 퍼시스턴트 메모리"
+lang: ko
+
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+color_scheme: light
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+
+# Top right links
+aux_links:
+  "🌐 membase.so":
+    - "https://membase.so"
+  "GitHub":
+    - "https://github.com/aristoapp"
+
+aux_links_new_tab: true
+
+# Nav
+nav_sort: order
+
+# Footer
+footer_content: 'Membase 가이드 | <a href="https://membase.so">membase.so</a> | Aristo Technologies'
+
+back_to_top: true
+back_to_top_text: "맨 위로"
+
+heading_anchors: true
+
+# Code highlight
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - node_modules/
+  - vendor/
+  - Gemfile.lock
+  - "*.sh"

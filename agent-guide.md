@@ -1,3 +1,10 @@
+---
+layout: default
+title: "🤖 AI 에이전트 참조 가이드"
+nav_order: 2
+description: "AI 에이전트에게 직접 피딩할 수 있는 Membase MCP 도구 레퍼런스"
+---
+
 # Membase Agent Reference Guide
 
 > **PURPOSE**: This document is optimized for AI agent ingestion. Feed this to any LLM agent to enable Membase integration immediately.

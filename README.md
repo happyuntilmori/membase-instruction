@@ -1,3 +1,11 @@
+---
+layout: default
+title: 홈
+nav_order: 1
+description: "AI 에이전트를 위한 중앙 기억 관리 완전 가이드 — membase.so"
+permalink: /
+---
+
 # Membase 완전 가이드 — AI 에이전트를 위한 중앙 기억 관리
 
 > **membase.so** | Aristo Technologies | AI 에이전트용 퍼시스턴트 메모리 레이어
