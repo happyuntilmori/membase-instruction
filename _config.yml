@@ -43,6 +43,7 @@ kramdown:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-relative-links
 
 exclude:
   - node_modules/
