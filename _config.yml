@@ -1,4 +1,6 @@
 title: "Membase 완전 가이드"
+url: "https://happyuntilmori.github.io"
+baseurl: "/membase-instruction"
 description: "AI 에이전트를 위한 중앙 기억 관리 — Claude, Cursor, ChatGPT 멀티 에이전트 퍼시스턴트 메모리"
 lang: ko
 
