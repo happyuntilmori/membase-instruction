@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - claude/membase-memory-guide-4r9sn4
+      - claude/ppt-html-summary-nextjs-wjqb66
       - main
   workflow_dispatch:
 
@@ -39,6 +40,26 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: codex-ppt/package-lock.json
+
+      - name: Install Next.js dependencies
+        run: npm ci
+        working-directory: codex-ppt
+
+      - name: Build Next.js static export
+        run: npm run build
+        working-directory: codex-ppt
+
+      - name: Copy Next.js output into Jekyll site
+        run: |
+          mkdir -p _site/codex-ppt
+          cp -r codex-ppt/out/. _site/codex-ppt/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

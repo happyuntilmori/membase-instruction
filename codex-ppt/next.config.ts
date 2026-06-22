@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  basePath: "/membase-instruction/codex-ppt",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
